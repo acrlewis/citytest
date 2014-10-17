@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VersionController {
 
-    @RequestMapping("/version")
+    @RequestMapping("/6")
     public String index() {
         return "Greetings London Roadshow!";
     }
